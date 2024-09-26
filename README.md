@@ -1,2 +1,4 @@
 # git-
-git及tortoiseGit两个工具
+git第一提交注意事项
+代码提交
+图形化提交
