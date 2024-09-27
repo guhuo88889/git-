@@ -23,7 +23,23 @@
  * git reset --soft 版本id,git log可以查看要回退的id(工作区和暂存区都会存在)例如：git reset --soft de96268c4125756d3a76300f0a1f82d71d7a7975
  * git rm two.txt:删除two.txt,(这里是将工作区和暂存区的文件都删除了，最后进行commit提交)
  * ssh-keygen -t rsa -b 4096   //生成key，一直回车会生成id_rsa私钥和id_rsa.pub公钥，在github中配置公钥，具体看https://www.bilibili.com/video/BV1HM411377j?spm_id_from=333.788.player.switch&vd_source=04aa5783d9790d082f89820e52b34a67&p=11
-
+ * git pull:拉取远程仓库文件
+ * git remote -v:查看远程仓库
+ * git remote add origin(远程仓库别名) https://github.com/projects.git(远程仓库地址)
+ * git branch:查看当前所有的分支
+ * git branch dev:创建一个新分支，名字为dev
+ * git checkout dev:切换到dev分支上，由于checkout也有恢复文件的功能，所以会出现一种情况，分支名和文件名相同时，就会出现问题，因此我们用switch切换分支
+ * git Switch dev：切换到dev分支上
+ * git merge dev:切换到main分支后，然后执行这个，意思是将dev分支合并到main分支上，成功后需要add.  和commit提交
+ * git branch -d dev:删除dev分支(已合并的分支)
+ * git branch -D dev:删除dev分支(未合并的分支)
+ * git diff：查看冲突的具体内容
+ * git merge --abort:中断合并
+ * cat yao.txt：显示yao.txt的内容
+ 
+ 
+ 
+ 
  * 命令方式
 *1、新建一个文件夹，鼠标右键运行：Git Bash Here 打开命令窗口；
 
@@ -72,7 +88,7 @@
  * 加速器下载：https://steampp.net/，这个是用于访问github加速使用
  * steam2.69:win7
  * steam3.0:win10及以上
- * 慎用，要听话哦
+ * 慎用
  */
 
 
