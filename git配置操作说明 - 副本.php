@@ -72,7 +72,7 @@
  * 加速器下载：https://steampp.net/，这个是用于访问github加速使用
  * steam2.69:win7
  * steam3.0:win10及以上
- * 慎用
+ * 慎用，要听话哦
  */
 
 
